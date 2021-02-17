@@ -1,10 +1,12 @@
-#img-bg{
-  background-image: url('../../assets/img/background.jpg');
-
-  min-height: 951px;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+*{
+  font-family: 'Roboto',
+  sans-serif;
+}
+.carousel-item1 {
+  object-fit: cover;
+  height: 950px;
+}
+.carousel-item2 {
+  object-fit: cover;
+  height: 950px;
 }
