@@ -1,0 +1,56 @@
+<div class='bg-light' container-fluid>
+
+  <div class="row d-flex align-items-center">
+
+    <div class="col-md-6">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+
+          <div class="bg-white pt-5 pb-5 pl-5 pr-5">
+            <h1 class="text-center mb-3">Entrar</h1>
+            <div class="form-group">
+              <label for="usuario">Usuário</label>
+              <input class="form-control" type="text" name="usuario" id="usuario" placeholder="Digite seu usuário">
+            </div>
+
+            <div class="form-group">
+              <label for="senha">Senha</label>
+              <input class="form-control" type="password" name="senha" id="senha" placeholder="Digite seu usuário">
+            </div>
+
+            <div class="d-flex justify-content-end">
+              <button type="submit" class="btn btn-success">Entrar</button>
+            </div>
+            <!-- <div>
+              <p class="d-flex">
+                  <a routerLink="#">Esqueceu a senha?</a>
+              </p>
+            </div> -->
+          </div>
+
+          <hr class="mt-5 mb-5">
+
+          <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+          <p class="text-center">
+            Não tem uma conta? <a routerLink="/cadastrar">Cadastre-se</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide col-md-6" data-ride="carousel" data-interval="3000">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 carousel-item1" src="../../assets/img/background.png" alt="Primeiro Slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 carousel-item2" src="../../assets/img/background-cadastrar.png" alt="Segundo Slide">
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,12 @@
+*{
+  font-family: 'Roboto',
+  sans-serif;
+}
+.carousel-item1 {
+  object-fit: cover;
+  height: 950px;
+}
+.carousel-item2 {
+  object-fit: cover;
+  height: 950px;
+}
